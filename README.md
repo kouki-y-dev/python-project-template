@@ -1,4 +1,4 @@
-# Python Project Template
+<h1 align="center">Python Project Template</h1>
 
 <div align="center">
 
