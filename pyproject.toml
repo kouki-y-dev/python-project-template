@@ -60,7 +60,6 @@ convention = "numpy"
 
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = [
-    "F401",  # unused-import: re-export 用の import を許可
     "D104",  # missing-docstring: package docstring 不要
 ]
 "tests/**/*.py" = [
@@ -70,7 +69,6 @@ convention = "numpy"
     "D102",  # method docstring
     "D103",  # function docstring
     "D104",  # package docstring
-    "ARG",   # 未使用引数（fixture）
 ]
 
 [tool.ruff.format]
