@@ -1,15 +1,35 @@
 <h1 align="center">Python Project Template</h1>
 
+<p align="center">
+  <em>A modern, opinionated, and blazingly fast Python starter template powered by <b>uv</b>, <b>Ruff</b>, and <b>ty</b>.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/kouki-y-dev/python-project-template/generate">
+    <img src="https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github" alt="Use this template" />
+  </a>
+</p>
+
 <div align="center">
 
-[![CI](https://github.com/yama0308/python-project-template/actions/workflows/ci.yml/badge.svg)](https://github.com/yama0308/python-project-template/actions/workflows/ci.yml)
-[![Python Version](https://img.shields.io/badge/python-3.14%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![uv](https://img.shields.io/badge/package%20manager-uv-DE5FE9?logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/kouki-y-dev/python-project-template/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/kouki-y-dev/python-project-template/actions)
+[![Python Version](https://img.shields.io/badge/python-3.14%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
+[![Ruff](https://img.shields.io/badge/Ruff-orange?style=flat-square&logo=ruff&logoColor=white)](https://github.com/astral-sh/ruff)
+[![ty](https://img.shields.io/badge/ty-blue?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ty)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?style=flat-square&logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/kouki-y-dev/python-project-template?style=flat-square)](https://github.com/kouki-y-dev/python-project-template/stargazers)
 
 </div>
+
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#tech-stack--features">Tech Stack</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#available-commands-task-runner">Commands</a> •
+  <a href="#configuration-details">Configuration</a>
+</p>
 
 ---
 
