@@ -5,11 +5,13 @@ description = "Starting template for python project"
 readme = "README.md"
 requires-python = ">=3.14"
 license = "MIT"
-dependencies = []
+dependencies = [
+    "pydantic>=2.13.5",
+]
 
 [project.urls]
-Homepage = "https://github.com/yama0308/"
-Repository = "https://github.com/yama0308/python-project-template"
+Homepage = "https://github.com/kouki-y-dev/"
+Repository = "https://github.com/kouki-y-dev/python-project-template"
 
 [dependency-groups]
 dev = [
@@ -59,16 +61,8 @@ ignore = [
 convention = "numpy"
 
 [tool.ruff.lint.per-file-ignores]
-"__init__.py" = [
-    "D104",  # missing-docstring: package docstring 不要
-]
 "tests/**/*.py" = [
     "S101",  # assert の使用
-    "D100",  # module docstring
-    "D101",  # class docstring
-    "D102",  # method docstring
-    "D103",  # function docstring
-    "D104",  # package docstring
 ]
 
 [tool.ruff.format]
