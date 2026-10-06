@@ -67,9 +67,10 @@
   - `check`: `lint` + `test` を一括実行。
 - **`[tool.ruff]` & `[tool.ruff.lint]`**:
   - `select = ["ALL"]` をベースに、競合やノイズとなるルール（`TD`, `FIX`, `FBT`, `COM`, `PL`, `FLY`, `ISC001`, `CPY001`）を明示的に除外。
+  - `unfixable`: 意図的な re-export やデバッグ中の変数の自動削除を防止するため、`F401` (`unused-import`) と `F841` (`unused-variable`) を指定。
+  - `[tool.ruff.lint.pydocstyle]`: docstring の規約に `numpy` スタイルを採用。
   - `[tool.ruff.lint.per-file-ignores]`:
-    - `__init__.py`: re-export 用の未使用 import (`F401`) や docstring を許容。
-    - `tests/**/*.py`: `assert` の使用 (`S101`) や docstring (`D10x`)、未使用引数 (`ARG`) を許容しつつ、型アノテーション (`ANN`) は維持。
+    - `tests/**/*.py`: `assert` の使用 (`S101`) を許容。
 - **`[tool.coverage]` & `[tool.pytest.ini_options]`**:
   - `branch = true` による分岐カバレッジ計測。
   - `relative_files = true` により CI 環境でのカバレッジパス不整合を防止。
