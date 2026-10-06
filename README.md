@@ -90,6 +90,10 @@
 - `astral-sh/setup-uv` を利用し、キャッシュを活用した高速な CI を実現。
 - `lint`（Ruff チェック、フォーマットチェック、ty 型チェック）と `test`（pytest & coverage）を並列ジョブで実行。
 
+### 5. `AGENTS.md`
+- AI コーディングエージェント（Cursor, Claude Code, GitHub Copilot, Antigravity など）向けの開発指示書。
+- コミット前の検証フロー（`poe check`）、型ヒントや NumPy 形式 docstring の必須化、分岐カバレッジ 100% や `mocker` フィクスチャ等のテスト規約を集約。
+
 ---
 
 ## Getting Started
@@ -156,6 +160,7 @@ uv run poe check
 ├── .gitignore
 ├── .pre-commit-config.yaml      # pre-commit フック設定
 ├── .python-version              # Python バージョン指定 (3.14)
+├── AGENTS.md                    # AI エージェント向け開発ガイドライン
 ├── pyproject.toml               # プロジェクト構成・各種ツール設定
 ├── README.md                    # ドキュメント
 └── uv.lock                      # 依存関係ロックファイル
